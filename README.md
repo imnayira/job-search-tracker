@@ -1,56 +1,71 @@
-# Personal Expense Tracker
+# Job Search Tracker
 
-A Python application for recording and managing personal expenses while practicing data handling and program logic.
+A Python project for collecting, organizing, and tracking job-search information while practicing APIs, structured data processing, and CSV file handling.
 
 ## Overview
 
-The Personal Expense Tracker was built as a practical project to apply Python programming concepts to everyday expense management.
+The Job Search Tracker was designed as a practical project for working with job-related information in Python.
 
-It helped me practice organizing financial records and developing a program around a real-world use case.
+The project brings together concepts such as retrieving data, processing structured information, and saving records to a CSV file for later use.
 
 ## Features
 
-* Record personal expense information.
-* Organize expense records.
-* Process and manage expense data.
-* Interact with the application through user input.
+* Work with job-search information.
+* Practice retrieving and processing structured data.
+* Store job-related records in CSV format.
+* Organize information for later review.
+* Explore filtering and managing collected records.
 
-*Additional features depend on the current implementation.*
+*Only features implemented in the current version are included in the actual application.*
 
 ## Technologies
 
 * Python
+* APIs and HTTP requests, if implemented in the current version
+* CSV file handling
+* JSON, if used by the project
 
 ## Getting Started
 
 ### Prerequisites
 
 * Python 3 installed on your computer.
+* Any external libraries required by the project.
 
-### Run the Project
+### Installation
 
 1. Clone or download this repository.
 2. Open the project folder in your terminal.
-3. Run the main Python file:
+3. Install the required dependencies, if a `requirements.txt` file is provided:
 
    ```bash
-   python main.py
+   pip install -r requirements.txt
    ```
 
-   Replace `main.py` with the actual filename if needed.
+### Run the Project
+
+Run the main Python file:
+
+```bash
+python main.py
+```
+
+Replace `main.py` with the actual entry-point filename if it differs.
 
 ## What I Learned
 
-* Applying Python to a practical, everyday problem.
-* Working with structured information.
-* Organizing program logic into manageable operations.
-* Thinking through how an application should handle user-provided data.
+* Working with structured data.
+* Understanding how APIs can provide data to Python applications.
+* Processing and organizing information.
+* Reading from and writing to CSV files.
+* Connecting multiple programming concepts in one project.
 
 ## Future Improvements
 
-* Add more detailed expense summaries and reporting.
-* Improve input validation and error handling.
-* Expand data storage and retrieval capabilities.
+* Add more search and filtering options.
+* Improve error handling for failed requests or unexpected data.
+* Expand job-tracking and record-management functionality.
+* Introduce database storage as the project grows.
 
 ---
 
